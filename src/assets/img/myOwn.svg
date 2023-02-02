@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="800px" height="800px"
+viewBox="0 0 400 400"
+preserveAspectRatio="xMidYMid">
+<!-- The scene description goes here! -->
+  <g transform="translate(150, 150) rotate(20)" > 
+         <path id="spin" d="M 10,30
+       A 20,20 0,0,1 50,30
+       A 20,20 0,0,1 90,30
+       Q 90,60 50,90
+       Q 10,60 10,30 z" fill = "blue" stroke = "black" stroke-width = "3" />
+        <circle r = "5" fill = "red" stroke = "black" stroke-width = "3">
+        <animateMotion begin="0s" dur="3s" repeatCount="indefinite" >
+            <mpath xlink:href="#spin"/>
+        </animateMotion>
+    </circle>
+        </g>
+</svg>
