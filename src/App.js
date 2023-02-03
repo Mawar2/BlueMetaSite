@@ -7,6 +7,7 @@ import { Wins } from "./components/Wins";
 import { Serve } from "./components/Service";
 import { ImageSlider } from "./components/ImageSlider";
 import { SliderData } from './components/SliderData';
+import { Footer } from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -20,6 +21,7 @@ function App() {
       <Wins />
       <ImageSlider slides = {SliderData}/>
       <Contact />
+      <Footer />
       
     </div>
   );

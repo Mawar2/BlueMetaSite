@@ -6,7 +6,7 @@ import bluemetalogo from "../assets/img/bluemetalogo.png";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);//set initially to 0 and indicated index of word being displayed
     const [isDeleting, setIsDeleting] = useState(false);  //is the word being typed or deleted, initially is set to false because we start by typing the word
-    const toRotate = ["Software Development", "Web Design"]; // list of words that will be displayed
+    const toRotate = ["Software Development", "Web Design", "Agile Coaching"]; // list of words that will be displayed
     const[text, setText] = useState(''); //component needs to show text
     const [delta, setDelta] = useState(100 - 1 * 1); //delta determines how fast one letter comes after the word is typed
     const period = 500; //arbitrary indicates time passing betweeen letter being typed out
@@ -48,10 +48,11 @@ export const Banner = () => {
             <Container> 
                 <Row className = "align-items-center"> 
                     <Col xs = {12} md = {6} xl = {7}> 
-                        <h1>{" BlueMeta Technologies "}<span className="wrap">{text}</span></h1>
+                        <h1>{" BlueMeta "}<div class="secondHeader"><h1>{" Technologies" }</h1></div>
+                        <span className="wrap">{text}</span></h1>
                         <p> We build software to empower the things that matter.
                         </p>
-                        <button onClick={() => console.log('connect')}>Call Us <ArrowRightCircle size = {25}></ArrowRightCircle></button>
+                        <button onClick={() => <a href="tel:[4439601899]"></a> && console.log('connect')}>Call Us <ArrowRightCircle size = {25}></ArrowRightCircle></button>
                     </Col>
                     <Col xs = {12} md = {6} xl = {5}>
                         <img src = {bluemetalogo} alt = "Headder Img"/>
