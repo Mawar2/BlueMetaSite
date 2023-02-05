@@ -4,7 +4,7 @@ import logo from '../assets/img/bmlogo4.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 
 export const NavBar = () =>{
-    const [activeLink, setActiveLink] = useState('home'); //activeLink state
+    
 
     const[scrolled, seScrolled] = useState(false); //when the pages load they are transparent but when we start scrolling it changes
                                                     // this keeps track of whether the user has scrolled or not
@@ -23,15 +23,13 @@ export const NavBar = () =>{
         return() => window.removeEventListener("scroll", onScroll);
     }, [])
 
-    const onUpdateActiveLink = (value) => {
-        setActiveLink(value);
-    }
+   
 
     return (
         <Navbar expand="lg" className = {scrolled ? "scrolled": ""}>  
           <Container>
-            <Navbar.Brand href="#home">
-            <div class="logo" onclick="window.location.href='#home'">
+            <Navbar.Brand href="/#home">
+            <div class="logo" onclick="window.location.href='/#home'">
                 <img src = {logo} alt = "Logo" /></div>
                 
             </Navbar.Brand>
@@ -43,7 +41,7 @@ export const NavBar = () =>{
               </Nav>
               <span className = "navbar-text">
                 <div className = "social-icon">
-                <a href = '#'><img src = {navIcon1} alt = ""/></a>
+                <a href = '/#'><img src = {navIcon1} /></a>
                 </div>
                 <button className = "vvd" onClick = {() =>  window.location.replace("/#contactForm") }><span>Contact Us</span></button>
               </span>

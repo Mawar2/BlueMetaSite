@@ -29,7 +29,7 @@ export const Wins = () => {
                 <div className="col-12">
                     <div className="win-bx wow zoomIn">
                         <h2>Our Wins</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>We have worked with our partners to create technologies that bring quality of life improvements both at a local and national level.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 
@@ -47,7 +47,7 @@ export const Wins = () => {
 
                                 <h5>*</h5>
                                 <p>We worked with Tennessee State University to track and visualize environmental data
-                                  for Tennessee and Louisianan.
+                                  for Tennessee and Louisiana.
                                 </p>
                             </div>
                             <div className="item">

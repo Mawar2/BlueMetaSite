@@ -24,17 +24,19 @@ if(!Array.isArray(slides || slides.length <=0)){
 }
 
   return (
-<section className = "slider">
+
+<section className = "slider"> <div>
     <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide}/>
     <FaArrowAltCircleRight className='right-arrow' onClick = {nextSlide} />
 {SliderData.map((slide,index) =>{
     return(
         //if index = to current them return class slide and then active else return the class slide
     <div className={index === current ? 'slide active' : 'slide'} key={index}>
-        {index === current && (<img src = {slide.image} alt = 'partnership image' className='image'/>)} 
+        {index === current && (<img src = {slide.image} className='image'/>)} 
         </div>
     )
     })}
+    </div>
 </section>
   );
 };

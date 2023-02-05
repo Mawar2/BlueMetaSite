@@ -7,7 +7,7 @@ export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);//set initially to 0 and indicated index of word being displayed
     const [isDeleting, setIsDeleting] = useState(false);  //is the word being typed or deleted, initially is set to false because we start by typing the word
     const toRotate = ["Software Development", "Web Design", "Agile Coaching"]; // list of words that will be displayed
-    const[text, setText] = useState(''); //component needs to show text
+    const [text, setText] = useState(''); //component needs to show text
     const [delta, setDelta] = useState(100 - 1 * 1); //delta determines how fast one letter comes after the word is typed
     const period = 500; //arbitrary indicates time passing betweeen letter being typed out
 
@@ -18,7 +18,9 @@ export const Banner = () => {
         },delta) //delta is our interval
 
         return () => {clearInterval(ticker)};
-    }, [text])  //we want this useEffect to run everytime the text gets updated
+        
+    }, [text])  // eslint-disable-line react-hooks/exhaustive-deps
+    //we want this useEffect to run everytime the text gets updated
 
     const tick = () => {
         let i = loopNum% toRotate.length;
@@ -52,7 +54,7 @@ export const Banner = () => {
                         <span className="wrap">{text}</span></h1>
                         <p> We build software to empower the things that matter.
                         </p>
-                        <button onClick={() => <a href="tel:[4439601899]"></a> && console.log('connect')}>Call Us <ArrowRightCircle size = {25}></ArrowRightCircle></button>
+                        <button onClick={() => console.log('connect')}>Call Us <ArrowRightCircle size = {25}></ArrowRightCircle></button>
                     </Col>
                     <Col xs = {12} md = {6} xl = {5}>
                         <img src = {bluemetalogo} alt = "Headder Img"/>
