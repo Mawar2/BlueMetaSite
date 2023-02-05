@@ -1,4 +1,4 @@
-import hutchlogo from '../assets/img/hutch-logo.png';
+import hutchlogo from '../assets/img/hutchstudiologo.webp';
 import fearlesslogo from '../assets/img/fearlesslogo.jpg';
 import tsulogo from '../assets/img/tsulogo.avif';
 import earthfundlogo from '../assets/img/earthfundlogo.jpg';

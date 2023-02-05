@@ -31,7 +31,7 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #23128D !important;
+  background-color: #000000 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -265,8 +265,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #4317EA;
 }
 .banner p {
-  color: #B8B8B8;
-  font-size: 18px;
+  color: #4317EA;
+  font-size: 35px;
+  font-weight: 450;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -312,12 +313,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	background: #23128D;
 	padding: 70px 0;
 }
+.section-black h2 {
+
+  font-size: 45px;
+	font-weight: 700;
+
+}
+.section-black p{
+  font-size: 18px;
+}
 
 .service-item{
 	background: #050505;
 	text-align:center;
 	margin:20px 0;
-	padding:50px 20px 40px 20px;
+	padding:50px 20px 80px 20px;
 	border-radius: 8px 8px;
 	-webkit-transition: all 0.25s ease-in-out;
 	-moz-transition: all 0.25s ease-in-out;
@@ -333,14 +343,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .service-item h3{
 	margin:20px 0 1px 0!important;
-	color:#454545;
-	font-size:18px;
+	color:#4317EA;
+	font-size:20px;
 	font-weight: 700;
 	text-transform:uppercase;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
 }
+
 
 .section-subtitle {
 	white-space: pre-line;
@@ -357,12 +368,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .service-info p{
 	color:#acacac;
-	font-style:italic;
+	font-family: Centra;
 }
 
 .service-info::after {
     background: #008aff;
-    background: -webkit-linear-gradient(135deg, #6B02FF 0%, #23128D 100%);
+    background: -webkit-linear-gradient(135deg, #203aad 0%, #23128D 100%);
     background: -o-linear-gradient(bottom right, #6B02FF, #23128D);
     background: -moz-linear-gradient(bottom right, #008aff, #1ad2fd);
     background: linear-gradient(135deg, #6B02FF 0%, #23128D 100%);
@@ -377,29 +388,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-/************ Skills Css ************/
+/************ Wins Css ************/
 .win {
   padding: 0 0 50px 0;
   position: relative;
 }
+
+
 .win-bx {
   background: #000000;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 60px;
 }
 .win h2 {
 	font-size: 45px;
 	font-weight: 700;
+  color:#4317EA;
+}
+.win h5
+{
+  color:#4317EA;
+  font-weight: 700;
 }
 
+
 .win p {
-    color: #B8B8B8;
+    color: #fafafa;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 75px 0; 
+    padding-right: 25px;
+    padding-left: 40px;
 }
 .win-slider {
   width: 80%;
@@ -410,13 +432,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
-}
+
 
 /************ Projects Css ************/
 .project {
@@ -548,12 +564,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Form Css ************/
 .contact {
   background: linear-gradient(90.21deg, #000000 -5.91%, #000000 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 100px 0;
 }
 .contact img {
   width: 92%;
 }
 .contact h2 {
+  color: #4317EA;
 	font-size: 45px;
 	font-weight: 700;
   margin-bottom: 30px;
@@ -633,8 +650,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*Slider CSS*/
 .slider{
+  background: #23128D;
   position: relative;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -642,7 +660,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .image{
   width: 900px;
-  height: 600px;
+  height: 500px;
   border-radius: 10px;
 }
 .right-arrow{
@@ -675,64 +693,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
-}
-
-/*Service CSS*/
-h1.heading {
-  font-size: 60px;
-  text-align: center;
-  font-weight: 700;
-  font-family: Poppins, sans-serif;
-  margin-bottom: 10px;
-}
-
-p.heading.p__color {
-  margin-bottom: 0;
-  text-align: center;
-  line-height: 1.2;
-}
-
-.service__box {
-  border-radius: 10px;
-  width: 100%;
-  background-color: #150d0d;
-  padding: 55px;
-  transition: .4s ease;
-}
-
-.service__box:hover {
-  transform: translateY(5px);
-  background-image: linear-gradient(90deg, #23128D, #4317EA);
-}
-
-.service__box:hover .icon {
-  color: #fff;
-}
-
-.service__box:hover p.service__text .p__color {
-        color: #fff !important;
-}
-
-.icon {
-  font-size: 54px;
-  font-weight: 400;
-  margin-bottom: 23px;
-  display: inline-flex;
-  color: #23128D;
-}
-
-p.service__text.p__color {
-  margin-bottom: 0;
-}
-
-h1.service__text {
-  font-size: 19px;
-  font-family: Poppins, sans-serif;
-  padding: 10px 0px;
-}
-
-@media only screen and (max-width: 1024px) {
-    .service__box {
-      padding: 32px;
-    }
 }

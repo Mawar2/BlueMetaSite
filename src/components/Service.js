@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Serve =() => {
-    let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
+   
     return (
       <section class="section-black">
     <div class="container">
@@ -11,7 +11,7 @@ export const Serve =() => {
 
                           <h2 class="section-title">Our Services</h2>
 
-                          <p class="section-subtitle">{message}</p>
+                          <p class="section-subtitle">Blue Meta implements multiple technologies for our partners to recieve software that is fast and reliable.</p>
                           
                     </div> 
              
@@ -22,7 +22,9 @@ export const Serve =() => {
                                    
                       <h3>Software Development</h3>            
                       <div class="service-info"><p></p></div>
-                      <p>Lorem Ipsum is here. The dummy text provides us with useful data.</p>
+                      <p>Software development services make it 
+                         possible for us to support your business, allowing you to 
+                          and recieve reliable, secure and impactful software.</p>
 
                 </div>
             </div> 
@@ -36,7 +38,11 @@ export const Serve =() => {
                       
                       <div class="service-info"><p></p></div>
 
-                      <p>Lorem Ipsum is here. The dummy text provides us with useful dataaa.</p>
+                      <p>At BlueMeta Technologies we will build intelligent websites
+                        to make your business marketable. Allowing for seemless transactions
+                        and communications all from your site.
+
+                      </p>
                       
                       
                   </div>
@@ -67,7 +73,7 @@ export const Serve =() => {
                       
                       <div class="service-info"><p></p></div>
 
-                      <p>Lorem Ipsum is here. The dummy text provides us with useful dataaa.</p>
+                      <p>Our software allows our clients data and websites to be accessed from anywhere at anytime.</p>
                       
                       
                   </div>
@@ -83,7 +89,7 @@ export const Serve =() => {
                       
                       <div class="service-info"><p></p></div>
 
-                      <p>Lorem Ipsum is here. The dummy text provides us with useful dataaa.</p>
+                      <p>We have worked with multiple organizations to provide them easy access to data, history and statistics.</p>
                       
                       
                   </div>
@@ -99,7 +105,7 @@ export const Serve =() => {
                       
                       <div class="service-info"><p></p></div>
 
-                      <p>Lorem Ipsum is here. The dummy text provides us with useful dataaa.</p>
+                      <p>We create software that allows data to be accessed then visualized in the form of maps, charts and graphs.</p>
                       
                       
                   </div>

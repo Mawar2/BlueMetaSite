@@ -9,7 +9,6 @@ export const Contact = () => {
         email: '',
         phone: '',
         message: '',
-
     }
 
     const [formDetails, setFormDetails] = useState(formInitialDetails);
@@ -36,7 +35,7 @@ export const Contact = () => {
         setButtonText("Send");
         let result = await response.json();
         setFormDetails(formInitialDetails);
-        if (result.code == 200) {
+        if (result.code === 200) {
           setStatus({ succes: true, message: 'Message sent successfully'});
         } else {
           setStatus({ succes: false, message: 'Something went wrong, please try again.'});
@@ -50,8 +49,7 @@ export const Contact = () => {
                 <Col md = {6}>
                     <h2 id = "contactForm"> Get In Touch.</h2>
                     <form onSubmit ={handleSubmit}>
-                        <Row>
-                            
+                        <Row>  
                             <Col sm={6} className = "px-1">
                                 <input type ="text" value = {formDetails.firstName} placeholder = "First Name" onChange = {(e) => onFormUpdate('firstName',e.target.value)}/>
                             </Col>
