@@ -32,7 +32,7 @@ if(!Array.isArray(slides || slides.length <=0)){
     return(
         //if index = to current them return class slide and then active else return the class slide
     <div className={index === current ? 'slide active' : 'slide'} key={index}>
-        {index === current && (<img src = {slide.image} className='image'/>)} 
+        {index === current && (<img src = {slide.image} alt = "slider pictures" className='image'/>)} 
         </div>
     )
     })}

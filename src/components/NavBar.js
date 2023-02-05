@@ -41,7 +41,7 @@ export const NavBar = () =>{
               </Nav>
               <span className = "navbar-text">
                 <div className = "social-icon">
-                <a href = '/#'><img src = {navIcon1} /></a>
+                <a href = '/#'><img src = {navIcon1} alt = "linkdnIcon"/></a>
                 </div>
                 <button className = "vvd" onClick = {() =>  window.location.replace("/#contactForm") }><span>Contact Us</span></button>
               </span>
