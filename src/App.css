@@ -313,6 +313,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	background: #23128D;
 	padding: 70px 0;
 }
+.section-black img{
+  width: 20%;
+}
+
 .section-black h2 {
 
   font-size: 45px;
@@ -336,6 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	transition: all 0.25s ease-in-out;
 }
 
+
 .service-item:hover{
 	background: #23128D;
 	color: white;
@@ -344,13 +349,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .service-item h3{
 	margin:20px 0 1px 0!important;
 	color:#4317EA;
-	font-size:20px;
+	font-size:22px;
 	font-weight: 700;
 	text-transform:uppercase;
 	transition: all .25s ease-in-out;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
 }
+
 
 
 .section-subtitle {
@@ -407,16 +413,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   color:#4317EA;
 }
+
+.win h3 {
+	font-size: 45px;
+	font-weight: 700;
+  color:#ea1717;
+}
+
 .win h5
 {
   color:#4317EA;
   font-weight: 700;
+  font-size: 22px;
 }
 
 
 .win p {
     color: #fafafa;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0; 
@@ -432,6 +446,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+
 
 
 /************ Projects Css ************/
@@ -652,15 +667,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .slider{
   background: #23128D;
   position: relative;
-  height: 70vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.slider h3{
+  color: red;
+  padding-left: 200px;
+}
+
 .image{
   width: 900px;
-  height: 500px;
+  height: 600px;
   border-radius: 10px;
 }
 .right-arrow{
