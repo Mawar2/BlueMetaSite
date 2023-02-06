@@ -54,7 +54,7 @@ export const Banner = () => {
                         <span className="wrap">{text}</span></h1>
                         <p> We build software to empower the things that matter.
                         </p>
-                        <button onClick={() => console.log('connect')}>Call Us <ArrowRightCircle size = {25}></ArrowRightCircle></button>
+                         <button onClick={() => <a href="tel:12407152769"> </a>}>Call Us <ArrowRightCircle size = {25}></ArrowRightCircle></button>
                     </Col>
                     <Col xs = {12} md = {6} xl = {5}>
                         <img src = {bluemetalogo} alt = "Headder Img"/>
