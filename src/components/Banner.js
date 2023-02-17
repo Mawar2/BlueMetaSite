@@ -3,6 +3,8 @@ import {Container, Row ,Col} from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import bluemetalogo from "../assets/img/bluemetalogo.png";
 
+
+
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);//set initially to 0 and indicated index of word being displayed
     const [isDeleting, setIsDeleting] = useState(false);  //is the word being typed or deleted, initially is set to false because we start by typing the word
@@ -51,7 +53,7 @@ export const Banner = () => {
                 <Row className = "align-items-center"> 
                     <Col xs = {12} md = {6} xl = {7}> 
                         <h1>{" BlueMeta "}<div class="secondHeader"><h1>{" Technologies" }</h1></div>
-                        <span className="wrap">{text}</span></h1>
+                        <span className="wrap" >{text}&nbsp;</span></h1>
                         <p> We build software to empower the things that matter.
                         </p>
                          <button onClick={() => <a href="tel:12407152769"> </a>}>Call Us <ArrowRightCircle size = {25}></ArrowRightCircle></button>

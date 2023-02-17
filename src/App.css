@@ -258,7 +258,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  min-height: 10;
 }
+
 
 .secondHeader 
 {
