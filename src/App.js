@@ -10,7 +10,7 @@ import { Footer } from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-//C:\Users\angel\vs codeFiles\personal-portfolio\node_modules\bootstrap\dist\css\bootstrap.min.css
+
 function App() {
   return (
     <div className="App">

@@ -27,7 +27,15 @@ html{
   scroll-padding-top: 75px
 }
 
+@media (max-width: 1449px){
+ wrap {
+  font-size: 1.5rem;
+ }
+}
+
+
 body{
+  
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
@@ -54,8 +62,7 @@ a:hover {
 }
 
 img {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
 }
 
 button {
@@ -67,12 +74,13 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
+@media (max-width:1497px) {
+	.wrap{
+    display: none;
+  }
 }
+
+
 
 p.success {
 	color: green;
@@ -240,6 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 .banner .tagline {
   font-weight: 700;
@@ -250,6 +259,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  
 }
 .banner h1 {
   font-size: 65px;
@@ -272,8 +282,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 450;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  max-width: 96%;
 }
+
+.banner a{
+  text-decoration: none;
+}
+
 .banner button {
   color: #fff;
   font-weight: 700;
@@ -306,8 +321,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-10px);
     }
 }
+@media (min-width:40em){
+  .split{
+    display: flex;
+  }
+  
+}
+
 .txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
+  border-right: 0.08em solid #666;  
 }
 
 /*Service CSS*/

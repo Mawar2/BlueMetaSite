@@ -9,14 +9,12 @@ app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(3000, () => console.log("Server Running"));
-console.log(process.env.EMAIL_USER);
-console.log(process.env.EMAIL_PASS);
 
 const contactEmail = nodemailer.createTransport({
-  service: 'gmail',
+  service: 'yahoo',
   auth: {
-    user: "angelo.wheeler09@gmail.com", //username //go to account security to make application password
-    pass: "Pacman09!"                     //password
+    user: "angelo.wheeler@yahoo.com", //username //go to account security to make application password
+    pass: "Pacman2020!"                     //password
   },
 });
 
@@ -36,7 +34,7 @@ router.post("/contact", (req, res) => {
   const mail = {
     from: name,
     to: "angelo.wheeler@yahoo.com", //your email
-    subject: "Contact Form Submission - Portfolio",
+    subject: "Contact Form Submission ",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
            <p>Phone: ${phone}</p>

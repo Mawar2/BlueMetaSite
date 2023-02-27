@@ -24,7 +24,7 @@ export const Serve = () => {
                               <div class="col-sm-6 col-md-4">
 
                                     <div class="service-item">
-                                          <img src={soft} alt="Image" />
+                                          <img src={soft} alt="softwareImage" />
 
                                           <h3>Software Development</h3>
                                           <div class="service-info"><p></p></div>
@@ -41,7 +41,7 @@ export const Serve = () => {
                               <div class="col-sm-6 col-md-4">
 
                                     <div class="service-item">
-                                          <img src={webpicture} alt="Image" />
+                                          <img src={webpicture} alt="webDesignPicture" />
 
                                           <h3>Web Design</h3>
 
@@ -61,7 +61,7 @@ export const Serve = () => {
                               <div class="col-sm-6 col-md-4">
 
                                     <div class="service-item">
-                                          <img src={lead} alt="Image" />
+                                          <img src={lead} alt="leadershipPicture" />
 
                                           <h3>Agile Coaching</h3>
 
@@ -83,7 +83,7 @@ export const Serve = () => {
                               <div class="col-sm-6 col-md-4">
 
                                     <div class="service-item">
-                                          <img src={cloud} alt="Image" />
+                                          <img src={cloud} alt="cloudPicture" />
 
                                           <h3>Cloud Solutions</h3>
 
@@ -104,7 +104,7 @@ export const Serve = () => {
                               <div class="col-sm-6 col-md-4">
 
                                     <div class="service-item">
-                                          <img src={datasci} alt="Image" />
+                                          <img src={datasci} alt="dataSciencePicture" />
 
                                           <h3>Data Science</h3>
 
@@ -121,7 +121,7 @@ export const Serve = () => {
                               <div class="col-sm-6 col-md-4">
 
                                     <div class="service-item">
-                                          <img src={datavision} alt="Image" />
+                                          <img src={datavision} alt="dataVisionPicture" />
 
                                           <h3>Data visualization</h3>
 
