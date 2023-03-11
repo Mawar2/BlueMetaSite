@@ -23,7 +23,7 @@ export const Wins = () => {
   };
 
   return (
-    <section className="win" id="wins">
+    <section className="win" id="wins" >
       <div className="container">
         <div className="row">
           <div className="col-12">

@@ -9,21 +9,20 @@ import lead from '../assets/img/leader.png';
 export const Serve = () => {
 
       return (
-            <section class="section-black">
-                  <div class="container">
-                        <div class="row">
+            <section className="section-black">
+                  <div className="container">
+                        <div className="row">
 
-                              <div class="col-md-12 text-center">
+                              <div className="col-md-12 text-center">
 
-                                    <h2 class="section-title">Our Services</h2>
+                                    <h2 className="section-title">Our Services</h2>
 
-                                    <p class="section-subtitle"></p>
-
+                                  
                               </div>
 
-                              <div class="col-sm-6 col-md-4">
+                              <div className="col-sm-6 col-md-4">
 
-                                    <div class="service-item">
+                                    <div className ="service-item">
                                           <img src={soft} alt="softwareImage" />
 
                                           <h3>Software Development</h3>
@@ -38,14 +37,14 @@ export const Serve = () => {
                                     </div>
                               </div>
 
-                              <div class="col-sm-6 col-md-4">
+                              <div className="col-sm-6 col-md-4">
 
-                                    <div class="service-item">
+                                    <div className="service-item">
                                           <img src={webpicture} alt="webDesignPicture" />
 
                                           <h3>Web Design</h3>
 
-                                          <div class="service-info"><p></p></div>
+                                          <div className="service-info"><p></p></div>
 
                                           <p>Our professional web design services help businesses establish a strong online
                                                 presence and reach their target audience. Our team of
@@ -58,14 +57,14 @@ export const Serve = () => {
                                     </div>
 
                               </div>
-                              <div class="col-sm-6 col-md-4">
+                              <div className="col-sm-6 col-md-4">
 
-                                    <div class="service-item">
+                                    <div className="service-item">
                                           <img src={lead} alt="leadershipPicture" />
 
                                           <h3>Agile Coaching</h3>
 
-                                          <div class="service-info"><p></p></div>
+                                          <div className="service-info"><p></p></div>
 
 
                                           <p>We offer agile coaching services to help
@@ -80,14 +79,14 @@ export const Serve = () => {
 
                               </div>
 
-                              <div class="col-sm-6 col-md-4">
+                              <div className="col-sm-6 col-md-4">
 
-                                    <div class="service-item">
+                                    <div className="service-item">
                                           <img src={cloud} alt="cloudPicture" />
 
                                           <h3>Cloud Solutions</h3>
 
-                                          <div class="service-info"><p></p></div>
+                                          <div className="service-info"><p></p></div>
 
                                           <p>Our comprehensive suite of cloud
                                                 solutions are designed to help businesses optimize their
@@ -101,14 +100,14 @@ export const Serve = () => {
 
                               </div>
 
-                              <div class="col-sm-6 col-md-4">
+                              <div className="col-sm-6 col-md-4">
 
-                                    <div class="service-item">
+                                    <div className="service-item">
                                           <img src={datasci} alt="dataSciencePicture" />
 
                                           <h3>Data Science</h3>
 
-                                          <div class="service-info"><p></p></div>
+                                          <div className="service-info"><p></p></div>
 
                                           <p>Whether you need to extract insights from large datasets, 
                                                 build predictive models, or develop complex algorithms, 
@@ -118,14 +117,14 @@ export const Serve = () => {
 
                               </div>
 
-                              <div class="col-sm-6 col-md-4">
+                              <div className="col-sm-6 col-md-4">
 
-                                    <div class="service-item">
+                                    <div className="service-item">
                                           <img src={datavision} alt="dataVisionPicture" />
 
                                           <h3>Data visualization</h3>
 
-                                          <div class="service-info"><p></p></div>
+                                          <div className="service-info"><p></p></div>
 
                                           <p> Our team of experts work with you to design visually appealing and understandable 
                                                 visualizations using the latest tools and techniques. Get the insights you 

@@ -57,7 +57,6 @@ export const Banner = () => {
                         <p> We build software to empower the things that matter.
                         </p>
                         <a href="tel:1-240-715-2769"> <button>Call Us<ArrowRightCircle size = {25}></ArrowRightCircle></button></a> 
-                        
                     </Col>
                     <Col xs = {12} md = {6} xl = {5}>
                         <img src = {bluemetalogo} alt = "Headder Img"/>
