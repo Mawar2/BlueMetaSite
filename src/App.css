@@ -1,3 +1,35 @@
+.privacy-policy {
+    background-color: #000; /* Background color for privacy policy section */
+    color: #fff; /* Text color */
+    padding-top: 200px; /* Adds space below the fixed navbar */
+    padding-bottom: 60px; /* Standard bottom padding */
+}
+
+.privacy-policy h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.privacy-policy ul {
+    margin-left: 20px;
+}
+
+.privacy-policy ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.privacy-policy a {
+    color: #4317EA;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+
+
 /*Custom Fonts */
 @font-face{
   font-family: Centra;
